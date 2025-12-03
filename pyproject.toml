@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cmbdemo"
+version = "0.0.1"
+description = "A demo Python project"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+  {name = "User", email = "user@example.com"},
+]
+dependencies = []
+
+[project.scripts]
+cmbdemo = "cmbdemo.main:main"
