@@ -1,0 +1,14 @@
+project_id: "your-project-id"
+location: "us-central1"
+dataplex:
+  scope:
+    project_ids:
+      - "your-project-id"
+    item_types:
+      - "ASPECT_TYPE"
+      - "ENTRY"
+gcs:
+  bucket_name: "your-bucket-name"
+  output_path: "dataplex-export/"
+bigquery:
+  dataset_id: "your_dataset_id"

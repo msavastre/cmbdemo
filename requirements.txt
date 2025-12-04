@@ -1,1 +1,5 @@
-# Add your project dependencies here
+google-cloud-dataplex
+google-cloud-storage
+google-cloud-bigquery
+PyYAML
+
